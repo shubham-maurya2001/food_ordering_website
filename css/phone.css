@@ -1,0 +1,78 @@
+
+/* navigation-section */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul {
+    padding-bottom: 0.6rem;
+}
+.list-item a {
+    color: white;
+    font-size: 0.8rem;
+    text-decoration: none;
+    margin: 0.1rem;
+    padding: 0.3rem 0.3rem;
+    border-radius: 1rem;
+    text-shadow: 2px 2px black;
+}
+
+/* home-section */
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 5px;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    font-family: 'Mukta', sans-serif;
+}
+#home p {
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-shadow: 2px 2px black;
+}
+.btn {
+    padding: 3px 10px;
+    margin: 3px;
+    color: white;
+    font-size: 1.2rem;
+    text-shadow: 2px 2px black;
+    box-shadow: 2px 2px gray;
+    border: 2px solid #979797;
+    border-radius: 20px;
+    background-color: #356055db;
+}
+
+/* services-section */
+#services{
+    flex-direction: column;
+}
+/* client-section */
+#clients {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#client-section {
+    margin: 10px 0px;
+    position: relative;
+    height: 25rem;
+}
+/* contact us-section */
+#contact-box form {
+    width: 70%;
+    height: auto
+}
+/* footer-section */
+
+/* utility-section */
+.h-primary {
+    font-size: 1.8rem;
+    padding: 3px;
+    font-family: 'Mukta', sans-serif;
+    text-shadow: 2px 2px gray;
+}
